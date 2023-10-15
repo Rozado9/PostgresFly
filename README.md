@@ -62,5 +62,17 @@ Displays the installation logs.
 ### Exit
 Closes the tool.
 
+## Workflow
+
+1. **Enter Information**: Fill in all the required fields.
+2. **Select Actions**: For example, "Test Connection" or "Start Installation".
+3. **Receive Installation Feedback**: A message box will notify about the success or failure of the action.
+4. **Check Logs if Needed**: Useful in case of errors or to monitor the process.
+
+## Monitoring Installation Progress
+
+As the installation proceeds, the progress bar in the GUI will indicate the status of the installation. It ranges from 0% (beginning of the installation) to 100% (installation complete). Ensure that you wait for the progress bar to reach 100% before proceeding with other tasks or closing the application.
+   
+
     
 
