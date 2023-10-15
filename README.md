@@ -3,10 +3,6 @@ A streamlined tool for remotely installing PostgreSQL on Linux machines using a 
 
 **PostgresFly** is an efficient tool designed for Windows users to remotely install various versions of PostgreSQL on Linux machines. Following the installation of PostgreSQL, PostgresFly provides a backup script to facilitate regular backups of your PostgreSQL database. With its user-friendly interface, PostgresFly allows for the installation of the desired PostgreSQL version on a Linux server with just a few inputs and a single click.
 
-
-![Screenshot von PostgresFly](PostgresFly.png)
-
-
 ## Operating System:
 - The tool is developed for Windows and facilitates the installation of various PostgreSQL versions on a Linux machine via a remote connection.
 
@@ -43,7 +39,9 @@ A streamlined tool for remotely installing PostgreSQL on Linux machines using a 
 2. Navigate to the extracted folder.
 3. Double-click on `PostgresFly.exe` to launch the program.
 
-## User Interface
+## User Interface & Functionalities
+
+![PostgresFly Interface](PostgresFly.png)
 
 - **IP/Hostname**: Enter the IP address or DNS name of the Linux machine.
 - **Username & User Pass**: Credentials of the user on the Linux machine who will perform the installation.
@@ -51,6 +49,18 @@ A streamlined tool for remotely installing PostgreSQL on Linux machines using a 
 - **Postgres Pass**: Password for the "postgres" user on the Linux machine. Note: This is not a database user.
 - **PostgreSQL-Port**: Default is 5432. If using a different port, enter it in the provided field, otherwise use the default port 5432.
 - **PostgreSQL-Version**: Select the desired version from the dropdown list.
+
+### Test Connection
+Tests the connection to the Linux machine.
+
+### Install PostgreSQL
+Initiates the installation of the selected PostgreSQL version.
+
+### View Logs
+Displays the installation logs.
+
+### Exit
+Closes the tool.
 
     
 
