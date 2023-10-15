@@ -73,6 +73,18 @@ Closes the tool.
 
 As the installation proceeds, the progress bar in the GUI will indicate the status of the installation. It ranges from 0% (beginning of the installation) to 100% (installation complete). Ensure that you wait for the progress bar to reach 100% before proceeding with other tasks or closing the application.
    
+## Troubleshooting
+
+### Connection Errors
+- Verify the IP, username, and password.
+- Ensure that the SSH service is installed on the Linux machine.
+
+### Installation Issues
+- Review the logs to diagnose any issues.
+- Ensure all prerequisites are met.
+
+### UI Issues
+- Restart the program.
 
     
 
