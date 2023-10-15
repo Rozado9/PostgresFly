@@ -9,3 +9,33 @@ A streamlined tool for remotely installing PostgreSQL on Linux machines using a 
 
 ## Operating System:
 - The tool is developed for Windows and facilitates the installation of various PostgreSQL versions on a Linux machine via a remote connection.
+
+# Prerequisites
+
+## User Permissions on the Linux Machine:
+- The executing user must have `sudo` permissions.
+- In `/etc/sudoers`, the entry `Username ALL=(ALL) NOPASSWD:ALL` should be present. Replace "Username" with the actual username.
+
+## Directory Structure on the Linux Machine:
+- A `pg-data` directory should be present in the root directory where PostgreSQL data will be stored.
+
+## Required Software on Linux Machines:
+- **SSH** for remote connection:
+  ```bash
+  sudo apt install openssh-server
+
+- **PowerShell** for backup tasks using the provided script:
+  ```bash
+  sudo apt-get update
+  sudo apt-get install -y wget apt-transport-https software-properties-common
+  source /etc/os-release
+  wget -q https://packages.microsoft.com/config/ubuntu/$VERSION_ID/packages-microsoft-prod.deb
+  sudo dpkg -i packages-microsoft-prod.deb
+  rm packages-microsoft-prod.deb
+  sudo apt-get update
+  sudo apt-get install -y powershell
+  
+
+
+    
+
