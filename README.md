@@ -86,5 +86,3 @@ As the installation proceeds, the progress bar in the GUI will indicate the stat
 ### UI Issues
 - Restart the program.
 
-    
-
