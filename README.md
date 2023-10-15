@@ -18,6 +18,8 @@ A streamlined tool for remotely installing PostgreSQL on Linux machines using a 
 
 ## Directory Structure on the Linux Machine:
 - A `pg-data` directory should be present in the root directory where PostgreSQL data will be stored.
+  ```bash
+  sudo mkdir /pg-data
 
 ## Required Software on Linux Machines:
 - **SSH** for remote connection:
