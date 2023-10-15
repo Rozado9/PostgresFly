@@ -43,6 +43,14 @@ A streamlined tool for remotely installing PostgreSQL on Linux machines using a 
 2. Navigate to the extracted folder.
 3. Double-click on `PostgresFly.exe` to launch the program.
 
+## User Interface
+
+- **IP/Hostname**: Enter the IP address or DNS name of the Linux machine.
+- **Username & User Pass**: Credentials of the user on the Linux machine who will perform the installation.
+- **SID-Name**: Name of the PostgreSQL instance.
+- **Postgres Pass**: Password for the "postgres" user on the Linux machine. Note: This is not a database user.
+- **PostgreSQL-Port**: Default is 5432. If using a different port, enter it in the provided field, otherwise use the default port 5432.
+- **PostgreSQL-Version**: Select the desired version from the dropdown list.
 
     
 
