@@ -37,7 +37,8 @@ A streamlined tool for remotely installing PostgreSQL on Linux machines using a 
 
 1. Download and extract the `PostgresFly.zip` file from GitHub.
 2. Navigate to the extracted folder.
-3. Double-click on `PostgresFly.exe` to launch the program.
+3. It is recommended to run `PostgresFly.exe` as an administrator to ensure that the program has the necessary permissions. Right-click `PostgresFly.exe` and select "Run as administrator" from the context menu.
+
 
 ## User Interface & Functionalities
 
