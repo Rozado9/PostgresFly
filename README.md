@@ -33,6 +33,11 @@ A streamlined tool for remotely installing PostgreSQL on Linux machines using a 
   sudo apt-get update
   sudo apt-get install -y powershell
 
+## Download
+
+You can download PostgresFly by clicking on the following link:
+[**PostgresFly Download**](https://drive.google.com/file/d/1GMMbYRwVmDJ-rB0PosJRTzRswls2xR9o/view?usp=drive_link)
+
 ## Starting the Application
 
 1. Download and extract the `PostgresFly.zip` file from GitHub.
