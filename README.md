@@ -78,7 +78,18 @@ Closes the tool.
 ## Monitoring Installation Progress
 
 As the installation proceeds, the progress bar in the GUI will indicate the status of the installation. It ranges from 0% (beginning of the installation) to 100% (installation complete). Ensure that you wait for the progress bar to reach 100% before proceeding with other tasks or closing the application.
-   
+
+## After the Installation
+Once the PostgreSQL installation is complete, you'll need to start the specific PostgreSQL instance on the Linux VM. The service name follows the format pg-sidname.service, where "sidname" is the name of the PostgreSQL instance you provided:
+ ```bash
+sudo systemctl start pg-sidname.service
+
+To verify that the specific PostgreSQL instance has started successfully, you can check the service status with the following command:
+```bash
+sudo systemctl status pg-sidname.service
+
+If the service has started correctly, the status will display as active (running).
+
 ## Troubleshooting
 
 ### Connection Errors
