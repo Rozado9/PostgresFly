@@ -1,7 +1,7 @@
 # PostgresFly
-A streamlined tool for remotely installing PostgreSQL on Linux machines using a Windows interface. Fly through your setup with PostgresFly!
+A Python-developed tool for remotely installing PostgreSQL on Linux machines via a Windows interface. Fly through your setup with PostgresFly!
 
-**PostgresFly** is an efficient tool designed for Windows users to remotely install various versions of PostgreSQL on Linux machines. Following the installation of PostgreSQL, PostgresFly provides a backup script to facilitate regular backups of your PostgreSQL database. With its user-friendly interface, PostgresFly allows for the installation of the desired PostgreSQL version on a Linux server with just a few inputs and a single click.
+**PostgresFly**  is an efficient tool, crafted in Python, designed for Windows users to remotely install various versions of PostgreSQL on Linux machines directly from the source. By installing from source, users not only benefit from customization and performance optimizations but also have the ability to install PostgreSQL extensions that aren't included in the standard PostgreSQL distribution. This offers greater flexibility and expanded functionality for database management. Following the installation, PostgresFly provides a backup script to facilitate regular backups of your PostgreSQL database. With its user-friendly interface, PostgresFly allows for the installation of the desired PostgreSQL version on a Linux server with just a few inputs and a single click.
 
 ## Operating System:
 - The tool is developed for Windows and facilitates the installation of various PostgreSQL versions on a Linux machine via a remote connection.
